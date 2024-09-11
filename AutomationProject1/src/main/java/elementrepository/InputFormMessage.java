@@ -14,9 +14,9 @@ public void test() {
 }
 public void add() {
 	WebElement a=driver.findElement(By.xpath("//input[@id='value-a']"));
-	a.sendKeys("10");
+	a.sendKeys("20");
 	WebElement b=driver.findElement(By.xpath("//input[@id='value-b']"));
-	b.sendKeys("20");
+	b.sendKeys("30");
 	WebElement getTotal=driver.findElement(By.xpath("//button[text()='Get Total']"));
 	getTotal.click();
 	
