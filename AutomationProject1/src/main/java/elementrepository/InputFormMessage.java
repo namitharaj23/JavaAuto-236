@@ -23,10 +23,10 @@ public void add() {
 }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-InputFormMessage ipForm=new InputFormMessage();
-ipForm.launchbrowser();
-ipForm.test();
-ipForm.add();
+InputFormMessage ipMsg=new InputFormMessage();
+ipMsg.launchbrowser();
+ipMsg.test();
+ipMsg.add();
 	}
 
 }
